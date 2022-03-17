@@ -3,8 +3,8 @@ const getCookie = name => {
     const allCookie = cookie.split('; ');
     const findCookie = allCookie.find(c => c.includes(name));
     if (findCookie) {
-        const cookisNameValue = findCookie.split('=');
-        return cookisNameValue[1];
+        const cookieNameValue = findCookie.split('=');
+        return cookieNameValue[1];
         // console.log()
     }
 } 
